@@ -21,18 +21,20 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    padding: inherit;
+    height: 0px;
 }
 
 li {
 
-    font-family: "Poppins",Helvetica,sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 7px;
     line-height: 23px;
     text-align: center;
     margin: 0 30px;
-    color: white;
+    color: white ;
 }
 
 .header-logos img {
