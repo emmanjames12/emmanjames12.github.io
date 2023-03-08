@@ -25,13 +25,21 @@ ul {
 
 li {
 
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: "Poppins",Helvetica,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 23px;
     text-align: center;
     margin: 0 30px;
+    color: white; */
+
+    font-family: "Poppins",Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #f5f5f5;
+    letter-spacing: 0px;
 }
 
 .header-logos img {
