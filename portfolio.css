@@ -6,11 +6,5 @@
 }
 
 html {
-    background: linear-gradient(-60deg, #23e2cb 30%, black 30%), transparent 0;
-    background-repeat:no-repeat;
-    min-height: 100%;
-    min-width: 1024px;
-  
-    width: 100%;
-    height: auto;
+    background: linear-gradient(180deg, rgba(255, 255, 0, 0.27) 0%, rgba(255, 255, 195, 0.0632813) 38.3%, rgba(255, 255, 255, 0) 50.02%);
   }
