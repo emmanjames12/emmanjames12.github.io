@@ -1,10 +1,38 @@
-.Porfolio-info h1{
-    background-color: red;
-    color: blue;
+.logo-container{
+    /* list-style-type: none;
+    display: flex;
+    justify-content: center; */
 
-
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
 }
 
-html {
-    background: linear-gradient(180deg, rgba(255, 255, 0, 0.27) 0%, rgba(255, 255, 195, 0.0632813) 38.3%, rgba(255, 255, 255, 0) 50.02%);
-  }
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.header-logos img {
+    width: 17px;
+}
