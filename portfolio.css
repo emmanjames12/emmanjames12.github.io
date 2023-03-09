@@ -49,19 +49,23 @@ li {
 }
 
 .profile-info > profile-pic {
-    width: 50%
+    width: 40%
     
 }
 
 
 .profile-info > profile-details {
-    width: 50%
+    width: 80%
 }
 
 .profile-pic{
+    display: flex;
     align-items: center;
-    justify-content: center;
-    width: 23%;
+    justify-content: right;
+    width: 40%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
 }
 
 .profile-details {
@@ -70,6 +74,7 @@ li {
     justify-content: center;
     padding: 0 25px;
     color: white;
+    width: 80%;
 }
 
 .profile-details h1{
@@ -137,4 +142,61 @@ li {
     font-weight: 400;
     font-size: 18px;
     line-height: 15px;
+}
+
+.year {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 40%;
+    align-items: center;
+}
+
+.affiliation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25px;
+    color: white;
+    width: 80%;
+}
+
+.attainment{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 59vh;
+    padding: 0 40px;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.attainment > year {
+    width: 25%
+    
+}
+
+
+.profile-info > affiliation {
+    width: 50%
+}
+
+.affiliation h1, .affiliation h2, .affiliation h3, .affiliation h4, .affiliation h5  {
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 58px;
+}
+
+.year h1, .year h2, .year h3, .year h4, .year h5  {
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 58px;
 }
