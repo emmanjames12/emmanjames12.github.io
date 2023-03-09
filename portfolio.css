@@ -23,7 +23,6 @@ ul {
 }
 
 li {
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -47,9 +46,6 @@ li {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    /* height: 100%; */
-    /* width: 100%; */
-
 }
 
 .profile-info > profile-pic {
@@ -63,7 +59,6 @@ li {
     align-items: center;
     justify-content: center;
 }
-
 
 .profile-details {
     display: flex;
@@ -100,7 +95,6 @@ li {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-
 }
 .profile-details h4{
     margin-top: 1%;
@@ -115,6 +109,7 @@ li {
 .profile-details h5{
     margin: 2%;
 }
+
 .profile-details h6{
     margin-top: 1%;
     margin-bottom: -0.5%;
@@ -127,7 +122,7 @@ li {
 }
 .profile-details h7{
     margin-top: 1%;
-    margin-bottom: -0.5%;
+    margin-bottom: -0.8%;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -136,7 +131,7 @@ li {
     line-height: 15px;
 }
 .profile-details h8{
-    margin-top: 1%;
+    margin-top: 1.5%;
     margin-bottom: -0.5%;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
