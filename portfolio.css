@@ -14,7 +14,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -2.5%;
+    margin-top: -5.5%;
 }
 
 ul {
@@ -35,10 +35,19 @@ li {
     text-align: center;
     margin: 0 30px;
     color: white ;
+  
 }
+
 
 .header-logos img {
     width: 11px;
+    
 }
 
+/* html {
+  background-image: url('bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+} */
 
