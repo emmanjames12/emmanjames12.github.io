@@ -61,6 +61,7 @@ li {
 .profile-pic{
     align-items: center;
     justify-content: center;
+    width: 23%;
 }
 
 .profile-details {
