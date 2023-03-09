@@ -1,10 +1,6 @@
 .logo-container{
-    /* list-style-type: none;
-    display: flex;
-    justify-content: center; */
-
     display: grid;
-    align-items: center; 
+    align-items: middle; 
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
 }
@@ -14,8 +10,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -5.5%;
+    margin-top: -1%;
 }
+
 
 ul {
     list-style-type: none;
@@ -26,28 +23,17 @@ ul {
 }
 
 li {
-
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 7px;
-    line-height: 23px;
+    font-size: 10px;
+    line-height: 50px;
     text-align: center;
-    margin: 0 30px;
+    margin: 0 120px;
     color: white ;
-  
 }
-
 
 .header-logos img {
-    width: 11px;
-    
+    width: 20px;
 }
-
-/* html {
-  background-image: url('bg.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-} */
 
