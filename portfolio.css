@@ -147,12 +147,6 @@ li {
 
 /* AFFILIATION PAGE */
 .header-affi{
-    /* font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    color: white;
-    justify-content: center;
-    align-items: center; */
-
     width: 100%;
     display: flex;
     align-items: center;
@@ -327,5 +321,172 @@ li {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
+    line-height: 58px;
+}
+
+/* SCHOOL YEAR ATTAINMENT */
+
+.school-background{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    text-shadow: 0px 4px 4px rgba(255, 255, 6, 0.575);
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.Experiences{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 59vh;
+    padding: 0 40px;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.Experiences > school-year {
+    width: 25%
+    
+}
+
+.Experiences > school-attainment {
+    width: 50%
+}
+
+.school-year {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 40%;
+    align-items: center;
+}
+
+.school-attainment{
+    display: flex;
+    padding: 0 25px;
+    color: white;
+    width: 80%;
+    height: 80%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* align-content: stretch; */
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.school-attainment h1 {
+    margin-top: 3%;
+    margin-bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.school-attainment h2{
+    margin-top: 2%;
+    margin-bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.school-attainment h3{
+    margin-top: 2.0%;
+    margin-bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.school-attainment h4{
+    margin-top: 2%;
+    margin-bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.school-attainment h5{
+    margin-top: 2%;
+    margin-bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.school-year h1, .school-year h2, .school-year h3, .school-year h4, .school-year h5  {
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 58px;
+}
+
+.school-attainment p1{
+    margin-top: -1%;
+    margin-bottom: -1%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 58px;
+}
+
+.school-attainment p2{
+    margin-top: 0%;
+    margin-bottom: -1%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 58px;
+}
+
+.school-attainment p3{
+    margin-top: 0%;
+    margin-bottom: -1%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 58px;
+}
+
+.school-attainment p4{
+    margin-top: 0%;
+    margin-bottom: -1%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 58px;
+}
+
+.school-attainment p5{
+    margin-top: 0%;
+    margin-bottom: -1%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 13px;
     line-height: 58px;
 }
