@@ -460,7 +460,7 @@ li {
 
 /* WHAT IM IN TO */
 
-.into{
+/* .into{
     width: 100%;
     display: flex;
     align-items: center;
@@ -473,15 +473,26 @@ li {
     font-weight: 800;
     font-size: 20px;
 }
-.hobbies img {
-    width: 5%;
-    height: 5%;
-    /* border-radius: 100%; */
-    border: solid #555;
-    
-}
 
-.hobbies{
+.interest{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0px 4px 4px rgba(238, 255, 0, 0.26);
+    font-style: bold;
+    font-weight: 800;
+    justify-content: center;
+    justify-items: center;
+}
+.hobbies img {
+    width: -5%;
+    height: -5%;
+    /* border-radius: 100%; */
+    /* border: solid #555;
+    
+    
+} */ 
+
+/* .hobbies{
     display: flex;
     height: 15rem;
     width: 15rem;
@@ -489,7 +500,49 @@ li {
     align-items: center;
     justify-content: center;
     padding: 10%;
+} */
+
+.hobbies{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+.hoblist{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1{
+    width: 500px;
+    position: relative;
+}
+.image1 >img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.image1 .content1{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background:rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.image1 .content1:hover{
+    opacity: 1;
+}
+
 
 /* .hobbies > div{
     flex: 1;
@@ -504,3 +557,10 @@ li {
 .hobbies > div:hover{
     flex: 5;
 } */
+
+/* .hobbies {
+    position: relative;
+    text-align: center;
+    color: white;
+  } */
+
