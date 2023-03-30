@@ -460,21 +460,26 @@ li {
 
 /* WHAT IM IN TO */
 
-/* .into{
-    width: 100%;
+.into{
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: start;
-    margin-top: 0%;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-style: bold;
     text-shadow: 0px 4px 4px rgba(238, 255, 0, 0.26);
     font-weight: 800;
     font-size: 20px;
+    margin-top: 0%;
+} 
+
+.hoblist::-webkit-scrollbar{
+    display: none;
+
 }
 
-.interest{
+ .interest{ 
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 0px 4px 4px rgba(238, 255, 0, 0.26);
@@ -482,15 +487,18 @@ li {
     font-weight: 800;
     justify-content: center;
     justify-items: center;
+    font-size: larger;
 }
+
 .hobbies img {
     width: -5%;
     height: -5%;
-    /* border-radius: 100%; */
-    /* border: solid #555;
+    
+    border: solid #555;
+    size: 2ch;
     
     
-} */ 
+} 
 
 /* .hobbies{
     display: flex;
@@ -507,41 +515,256 @@ li {
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
+    gap: 16px;
+    
 }
 
 .hoblist{
-    width: 100%;
-    height: 100vh;
+    width: 50%;
+    height: 75vh;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    gap: 16px;
+    direction: ltr;
+    
+}
+.hoblist p{
+    padding: 0;
+}
+
+.hoblist img{
+    width: 135px;
+    height: 135px;
+    border: solid #555;
+    
 }
 .image1{
     width: 500px;
     position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 .image1 >img{
-    width: 100%;
+    /* width: 100%; */
     display: block;
     margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: -5%;
+    height: -5%;
+    
+    
+    
+    
 }
 .image1 .content1{
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    position: absolute;
+    /* position: absolute; */
     background:rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    opacity: 0;
+    opacity: -50;
     transition: 0.6s;
+    position:absolute; left: 0px; top:0px;
+    
+    
+
 }
 .image1 .content1:hover{
-    opacity: 1;
+    opacity: 10;
+    justify-content: center;
+    align-items: center; 
+    color: white;   
+    
+    
 }
+
+.image2{
+    width: 500px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.image2 >img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image2 .content2{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* position: absolute; */
+    background:rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: -50;
+    transition: 0.6s;
+    position:absolute; left: 0px; top:0px
+
+}
+.image2 .content2:hover{
+    opacity: 10;
+    justify-content: center;
+    align-items: center; 
+    color: white;   
+    
+}
+
+
+.image3{
+    width: 500px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.image3 >img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image3 .content3{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* position: absolute; */
+    background:rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: -50;
+    transition: 0.6s;
+    position:absolute; left: 0px; top:0px
+
+}
+.image3 .content3:hover{
+    opacity: 10;
+    justify-content: center;
+    align-items: center; 
+    color: white;      
+    
+    
+}
+.image4{
+    width: 500px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.image4 >img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image4 .content4{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* position: absolute; */
+    background:rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: -50;
+    transition: 0.6s;
+    position:absolute; left: 0px; top:0px
+
+
+}
+.image4 .content4:hover{
+    opacity: 10;
+    justify-content: center;
+    align-items: center; 
+    color: white;       
+    
+    
+}
+.image5{
+    width: 500px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.image5 >img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image5 .content5{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* position: absolute; */
+    background:rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: -50;
+    transition: 0.6s;
+    position:absolute; left: 0px; top:0px
+
+}
+.image5 .content5:hover{
+    opacity: 10;
+    justify-content: center;
+    align-items: center; 
+    color: white;     
+    
+    
+}
+
+.hoblist h1{
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 58px;
+    
+}
+.hoblist p{
+    margin: 5%;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 0;
+    font-size: 15px;
+    justify-content: center;
+    justify-items: stretch;
+    text-align: center;
+    
+    
+    
+}
+
 
 
 /* .hobbies > div{
