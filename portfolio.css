@@ -36,8 +36,6 @@ li {
     width: 20px;
 }
 
-
-
 /* SECTION 1 - INFORMATION */
 .profile-info{
     display: flex;
@@ -48,7 +46,6 @@ li {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    /* border: 15px solid green */
 }
 .profile-info > profile-pic {
     width: 40%
@@ -64,10 +61,20 @@ li {
     width: 40%;
     flex-wrap: nowrap;
     flex-direction: column;
-    border: 1px solid green
-    
     
 }
+
+.profile-pic img {
+    width: 60%;
+    border-radius: 100%;
+    border-color: green;
+}
+
+.profile-pic:hover{
+    transform: scale(1.05);
+
+}
+
 .profile-details {
     display: flex;
     flex-direction: column;
