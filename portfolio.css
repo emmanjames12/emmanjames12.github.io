@@ -1,3 +1,28 @@
+/* TOP BUTTONS */
+#myBtn {
+    position: fixed;
+    bottom: 40px;
+    float: right;
+    right: 50%;
+    left: 92.5%;
+    max-width: 50px;
+    width: 75%;
+    font-size: 25px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background: linear-gradient(420deg, rgba(221, 188, 0, 0.384), #3b3b3b);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+
+    transform: scale(1.05);
+    opacity: 80;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(221, 188, 0, 0.384)
+}
+
+/* NAVIGATIONS */
 .logo-container{
     display: grid;
     align-items: middle; 
@@ -37,7 +62,6 @@ li {
 }
 .header-logos .insta:hover, .header-logos .twt:hover, .header-logos .yt:hover, .header-logos .github:hover{
     transform: scale(1.2);
-    box-shadow: 0 0 10px rgba(253, 12, 4, 0.384)
 
 }
 
@@ -464,8 +488,7 @@ li {
     line-height: 58px;
 }
 
-/* WHAT IM IN TO */
-
+/* INTEREST SECTION*/
 .into{
     width: 50%;
     display: flex;
@@ -505,16 +528,6 @@ li {
     
     
 } 
-
-/* .hobbies{
-    display: flex;
-    height: 15rem;
-    width: 15rem;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-    padding: 10%;
-} */
 
 .hobbies{
     margin: 0px;
