@@ -9,9 +9,10 @@
     width: 75%;
     font-size: 25px;
     border-color: rgba(85, 85, 85, 0.2);
-    background: linear-gradient(420deg, rgba(221, 188, 0, 0.384), #3b3b3b);
+    background:  #3b3b3b;
     padding: 15px;
     border-radius: 10px;
+    opacity: 80%;
 }
 
 #myBtn:hover {
@@ -62,7 +63,7 @@ li {
 }
 .header-logos .insta:hover, .header-logos .twt:hover, .header-logos .yt:hover, .header-logos .github:hover{
     transform: scale(1.2);
-
+    box-shadow: 0 0 10px rgba(221, 188, 0, 0.384)
 }
 
 /* SECTION 1 - INFORMATION */
