@@ -83,6 +83,7 @@ li {
     align-items: center;
     justify-content: center;
     padding-top: 5%;
+    padding-right: 40px;
 }
 .profile-info > profile-pic {
     width: 40%
@@ -120,6 +121,8 @@ li {
     width: 80%;
     background-color: rgba(128, 128, 128, 0.096);
     background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.021), rgb(19, 18, 18));
+    box-shadow: 0 0 10px rgba(110, 110, 105, 0.384)  
+
 }
 .profile-details{
     border-top: 2px solid gray;
@@ -204,8 +207,13 @@ li {
     font-style: bold;
     text-shadow: 0px 4px 4px rgba(238, 255, 0, 0.26);
     font-weight: 800;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 12px;
+    position: relative;
+    bottom: -58px;
+    float: right;
+    right: 100%;
+    left: 15%;
 }
 .glow .header-affi{
     font-size: 80px;
@@ -235,8 +243,12 @@ li {
     flex-direction: column;
     background-color: rgba(128, 128, 128, 0.096);
     padding-bottom: 5px;
+    
     background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.021), rgb(19, 18, 18));
+    box-shadow: 0 0 10px rgba(110, 110, 105, 0.384)  
+    
 }
+
 .affiliation {
     border-left: 2px solid rgba(128, 128, 128, 0.801);
     border-right: 2px solid rgba(128, 128, 128, 0.801);
@@ -251,6 +263,7 @@ li {
     align-items: center;
     justify-content: center;
     padding: 10px;
+    padding-right: 40px;
 }
 .attainment > year {
     width: 25%
@@ -370,7 +383,12 @@ li {
     font-style: bold;
     text-shadow: 0px 4px 4px rgba(238, 255, 0, 0.26);
     font-weight: 800;
-    font-size: 20px;
+    font-size: 30px;
+    position: relative;
+    bottom: -58px;
+    float: right;
+    right: 100%;
+    left: 15%;
 }
 .Experiences{
     display: flex;
@@ -381,6 +399,7 @@ li {
     align-items: center;
     justify-content: center;
     padding: 10px;
+    padding-right: 40px;
 }
 .Experiences > school-year {
     width: 25%
@@ -409,6 +428,7 @@ li {
     background-color: rgba(128, 128, 128, 0.096);
     padding-bottom: 5px;
     background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.021), rgb(19, 18, 18));
+    box-shadow: 0 0 10px rgba(110, 110, 105, 0.384)  
 }
 
 .school-attainment {
@@ -537,7 +557,12 @@ li {
     font-weight: 800;
     justify-content: center;
     justify-items: center;
-    font-size: larger;
+    font-size: 30px;
+    position: relative;
+    bottom: -40px;
+    float: right;
+    right: 100%;
+    left: -38%;
 }
 .hobbies img {
     width: -5%;
@@ -565,7 +590,8 @@ li {
     justify-content: start;
     align-items: center;
     gap: 16px;
-    direction: ltr;
+    direction:calc(center);
+    padding-left: 110px;
     
 }
 .hoblist p{
