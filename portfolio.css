@@ -582,6 +582,7 @@ li {
     border-radius: 12px;
     margin: 15px;
     background-image: linear-gradient(0deg, rgba(255, 250, 250, 0.199), rgb(19, 18, 18));
+    box-shadow: 0 0 10px rgba(110, 110, 105, 0.384)  
   }
 .hoblist{
     width: 50%;
