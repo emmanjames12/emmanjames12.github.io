@@ -26,7 +26,7 @@
 }
 
 /* NAVIGATIONS */
-.logo-container{
+ .logo-container{
     display: grid;
     align-items: middle; 
     grid-template-columns: 1fr 1fr 1fr;
@@ -40,8 +40,8 @@ nav {
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin-top: -1.5%;
-    margin-bottom: 5% ;
+    margin-top: -7%;
+    margin-bottom: 0% ;
     padding-bottom: 8px;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.897);
@@ -71,7 +71,7 @@ li {
 .header-logos .insta:hover, .header-logos .twt:hover, .header-logos .yt:hover, .header-logos .github:hover{
     transform: scale(1.2);
     box-shadow: 0 0 10px rgba(221, 188, 0, 0.384)
-}
+} 
 
 /* SECTION 1 - INFORMATION */
 .profile-info{
@@ -80,6 +80,8 @@ li {
     height: 59vh;
     padding: 0 40px;
     margin: 0%;
+    margin-bottom: 8%;
+    margin-top: 5%;
     align-items: center;
     justify-content: center;
     padding-top: 5%;
@@ -125,7 +127,7 @@ li {
 
 }
 .profile-details{
-    border-top: 2px solid gray;
+    border-top: 50px solid rgba(128, 128, 128, 0.39);
     border-radius: 12px;
 }
 .profile-details h1{
@@ -250,6 +252,7 @@ li {
 }
 
 .affiliation {
+    border-top: 25px solid rgba(128, 128, 128, 0.39);
     border-left: 2px solid rgba(128, 128, 128, 0.801);
     border-right: 2px solid rgba(128, 128, 128, 0.801);
     border-radius: 12px;
@@ -432,6 +435,7 @@ li {
 }
 
 .school-attainment {
+    border-top: 25px solid rgba(128, 128, 128, 0.39);
     border-left: 2px solid rgba(128, 128, 128, 0.801);
     border-right: 2px solid rgba(128, 128, 128, 0.801);
     border-radius: 12px;
